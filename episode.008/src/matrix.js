@@ -1,28 +1,4 @@
-<<<<<<< HEAD
-export default function strToMatrix(mat=""){
-   
-    let matrice = {
-        col:null,
-        rows:null,
-    }
 
-  
-    let cols = mat.split(' ')
-
-
-    console.log("ma col",cols)
-    
-
-    /*myMat = myMat.map(function(elt){
-        return parseInt(elt)
-    })*/
-
-
-    return matrice
-}
-
-// 1 
-=======
  export default function strToMatrix(str) {
     let obj = {}
 
@@ -57,4 +33,4 @@ export default function strToMatrix(mat=""){
 1 3 4    i
 
 */
->>>>>>> 9bd9ec93927e9d44209630f3faad77d4aca1c88a
+
